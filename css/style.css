@@ -1,7 +1,7 @@
 a {
-    overflow: hidden;
-    position: relative;
-    display: inline-block; font-size: 19px;
+    overflow:hidden;
+    position:relative;
+    display:inline-block; font-size: 19px;
   }
   a::before,
   a::after {
@@ -40,16 +40,15 @@ a {
   <link rel="stylesheet" href="https://use.typekit.net/hty7zzp.css">
   {
     margin: 0;
-    padding: 9;
-    box-sizing: border-box;  -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+    padding: 9px;
+    <boxsizboxing :border; 
+    -webkit-background-clip: text;
+    webkit-text-fill-color: transparent;}
   
   body {
-    background-color: #f7f7f7;
+    background-color: #ff10f3;
     font-family: 'your-font-family', sans-serif;
-    line-height: 1.6;
-  }
+    line-height: 1.6;}
   
   article {
     max-width: 800px;
@@ -82,7 +81,7 @@ a {
   }
   
   
-  .Weewoo {
+  .weewoo {
     font-size: 20px;
     font-style: italic;
     color: #842; 
@@ -105,15 +104,26 @@ a {
   }
    @import url("https://use.typekit.net/hty7zzp.css")
     
-     .dance {$color1: red;
-  $color2: 
+     .dance {color1: red;
+  color2: 
        blue;filter: contrast(110%) brightness(190%);position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
   mix-blend-mode: color-dodge;  justify-content: center;
-    align-content: center;
+    align-content:center;
     align-items: center;
   }
-  
+  div {
+    color: #FFF;
+    background-color: #7a0058;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #f9a12f;
+    border-radius: 5px;
+    
+    width: 200px;
+    box-sizing: border-box;
+  }
   .text-effect {
     overflow: hidden;
-    position: relative;}
+    position: relative;}ww
