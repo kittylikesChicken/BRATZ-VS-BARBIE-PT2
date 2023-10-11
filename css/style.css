@@ -1,0 +1,119 @@
+a {
+    overflow: hidden;
+    position: relative;
+    display: inline-block; font-size: 19px;
+  }
+  a::before,
+  a::after {
+   content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  a::after {
+    content: attr(data-replace);
+  }
+  a::after {
+    content: attr(data-replace);
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+  }
+  
+  a:hover::after,
+  a:focus::after {
+    transform: translate3d(0.7, 0, 0);
+  }
+  a::before {
+    background-color: #54b3d6;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+  }
+  
+  a:hover::before,
+  a:focus::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+  }
+  <link rel="stylesheet" href="https://use.typekit.net/hty7zzp.css">
+  {
+    margin: 0;
+    padding: 9;
+    box-sizing: border-box;  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+    font-family: 'your-font-family', sans-serif;
+    line-height: 1.6;
+  }
+  
+  article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .down{ margin-bottom: 34px}
+  
+  .bratzy {
+    color: #ff1dce;
+     text-align: center;
+    margin-top: 10px;
+  }
+  .dido {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff69b4; 
+    text-align: center;
+    margin-top: 10px;
+  }
+    
+  .preffer {
+    text-shadow: 1px 1px 2px;
+    color: #ff1dce; 
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  
+  .Weewoo {
+    font-size: 20px;
+    font-style: italic;
+    color: #842; 
+    margin-top: 20px;
+  }
+  
+  
+  .baby {
+    font-size: 28px;
+    color: #ff1dce; 
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;font-family: "kopik"
+  }
+  
+  thefourfour {
+    display: block;
+    margin: auto;
+    max-width: 400px;
+  }
+   @import url("https://use.typekit.net/hty7zzp.css")
+    
+     .dance {$color1: red;
+  $color2: 
+       blue;filter: contrast(110%) brightness(190%);position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  mix-blend-mode: color-dodge;  justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  
+  .text-effect {
+    overflow: hidden;
+    position: relative;}
